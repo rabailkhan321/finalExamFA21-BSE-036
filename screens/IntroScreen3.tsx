@@ -21,7 +21,7 @@ export default function IntroScreen3({ onNext }: Props) {
 
       {/* Subheading */}
       <Text style={styles.subheading}>
-        Get the best deals on laptops that meet your budget and expectations
+        Get the best deals on eveything that meet your budget and expectations
       </Text>
 
       {/* Descriptive Text */}

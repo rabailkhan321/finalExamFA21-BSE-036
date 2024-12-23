@@ -17,14 +17,7 @@ const ProductListItems=({product}: ProductListItemProps)=>{
 
     return(     
      
-  //           <View style={styles.container}>
-  //   <Image source={{uri: product.image || defaultImage }} style={styles.image} resizeMode='contain' />
-  //   <Text style={styles.title}> {product.name}</Text>
-  //   <Text style={styles.price}>${product.price}</Text>
-  //   <Link href={"/product"}>go to screen</Link>
-  // </View>
-
-//creating screens with expo router on entire view (NOT just text )
+ 
 
 <Link href={`/menu/${product.id}`} asChild>
   <Pressable style={styles.container}>
